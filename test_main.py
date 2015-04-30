@@ -12,3 +12,7 @@ def test_fn2():
         assert False
     except TypeError:
         assert True
+
+
+def test_failed():
+    assert main.power2(3) == 10
